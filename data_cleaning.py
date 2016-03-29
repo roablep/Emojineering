@@ -17,7 +17,7 @@
 # - replace contractions & spellchecking
 #     - Character ngram will probably be more efficient due to the really low quality of speach
 
-# In[1]:
+# In[4]:
 
 import json
 import numpy as np
@@ -29,10 +29,15 @@ pd.options.display.max_colwidth = 140
 import nltk
 import re
 from IPython.display import display
-import happyfuntokenizing
-from happyfuntokenizing import TweetTokenizer
+import src.happyfuntokenizing
+# from src.happyfuntokenizing import TweetTokenizer
 
 from math import log
+
+
+# In[ ]:
+
+src.happyfuntokenizing.Tokenizer
 
 
 # # Key functions
